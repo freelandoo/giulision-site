@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#f7f1e9" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta
+      name="description"
+      content="Demonstração visual de uma landing page para decoração e iluminação de eventos."
+    />
+    <title>Giulision | Decoração e iluminação</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="wordmark" href="#inicio" aria-label="Giulision, início">
+          <span>GIULISION</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-nav-toggle
+        >
+          <i data-lucide="menu" aria-hidden="true"></i>
+          <span class="sr-only">Abrir menu</span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Navegação principal" data-nav>
+          <a href="#servicos">Serviços</a>
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero section" id="inicio" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal is-visible">
+            <p class="eyebrow"><span aria-hidden="true"></span> Decoração &amp; iluminação</p>
+            <h1 id="hero-title">Seu evento, bem resolvido do primeiro contato à montagem.</h1>
+            <p class="hero-subtitle">
+              Cortinas, lustres e luz cênica para
+              <em>casamentos e encontros empresariais.</em>
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contato">
+                Pedir uma proposta
+                <i data-lucide="arrow-right" aria-hidden="true"></i>
+              </a>
+              <a class="text-link" href="#servicos">Conhecer serviços</a>
+            </div>
+
+            <p class="hero-note">Disponibilidade e região de atendimento serão confirmadas na conversa.</p>
+          </div>
+
+          <figure class="hero-media reveal is-visible">
+            <img
+              src="/assets/hero-evento.webp"
+              width="1600"
+              height="914"
+              alt="Salão com cortinas claras, lustres e iluminação âmbar"
+              fetchpriority="high"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="process-strip" id="como-funciona" aria-labelledby="process-title">
+        <div class="container">
+          <h2 class="sr-only" id="process-title">Como funciona</h2>
+          <ol class="process-list">
+            <li class="process-item reveal">
+              <span class="process-number">01</span>
+              <div>
+                <h3>Conversa</h3>
+                <p>Entendemos o evento, o espaço e o que você pretende criar.</p>
+              </div>
+            </li>
+            <li class="process-item reveal">
+              <span class="process-number">02</span>
+              <div>
+                <h3>Proposta</h3>
+                <p>Organizamos os itens desejados em um escopo claro para aprovação.</p>
+              </div>
+            </li>
+            <li class="process-item reveal">
+              <span class="process-number">03</span>
+              <div>
+                <h3>Montagem</h3>
+                <p>A execução é alinhada ao local e ao horário combinados.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="services section" id="servicos" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow"><span aria-hidden="true"></span> Serviços previstos</p>
+              <h2 id="services-title">Elementos que mudam a atmosfera do espaço.</h2>
+            </div>
+            <p>
+              A combinação é definida de acordo com o tipo de evento, o ambiente e a sensação
+              desejada.
+            </p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <div class="service-image">
+                <img
+                  src="/assets/servico-cortinas.webp"
+                  width="1600"
+                  height="914"
+                  alt="Cortinas claras iluminadas em um salão"
+                  loading="lazy"
+                />
+              </div>
+              <div class="service-content">
+                <div>
+                  <p class="service-kicker">01</p>
+                  <h3>Cortinas</h3>
+                  <p>Camadas de tecido para enquadrar, dividir e aquecer o ambiente.</p>
+                </div>
+                <a href="#contato" aria-label="Consultar proposta para cortinas">
+                  <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-image">
+                <img
+                  src="/assets/servico-lustres.webp"
+                  width="1600"
+                  height="914"
+                  alt="Lustre de cristal aceso em um salão"
+                  loading="lazy"
+                />
+              </div>
+              <div class="service-content">
+                <div>
+                  <p class="service-kicker">02</p>
+                  <h3>Lustres</h3>
+                  <p>Pontos de luz que valorizam o pé-direito e conduzem o olhar.</p>
+                </div>
+                <a href="#contato" aria-label="Consultar proposta para lustres">
+                  <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-image">
+                <img
+                  src="/assets/servico-luz-cenica.webp"
+                  width="1600"
+                  height="914"
+                  alt="Iluminação cênica azul e âmbar sobre cortinas"
+                  loading="lazy"
+                />
+              </div>
+              <div class="service-content">
+                <div>
+                  <p class="service-kicker">03</p>
+                  <h3>Luz cênica</h3>
+                  <p>Cor e intensidade planejadas para o clima de cada momento.</p>
+                </div>
+                <a href="#contato" aria-label="Consultar proposta para luz cênica">
+                  <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="atmosphere section" aria-labelledby="atmosphere-title">
+        <div class="container atmosphere-shell reveal">
+          <div class="atmosphere-copy">
+            <p class="eyebrow eyebrow-light"><span aria-hidden="true"></span> Composição</p>
+            <h2 id="atmosphere-title">A luz organiza o espaço antes de receber os convidados.</h2>
+            <p>
+              Cortinas criam planos, lustres definem pontos de atenção e a iluminação estabelece
+              o clima da recepção.
+            </p>
+          </div>
+          <ul class="event-types" aria-label="Tipos de evento previstos">
+            <li><span>Casamentos e celebrações</span><i data-lucide="arrow-right" aria-hidden="true"></i></li>
+            <li><span>Encontros empresariais</span><i data-lucide="arrow-right" aria-hidden="true"></i></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="brief-section section" aria-labelledby="brief-title">
+        <div class="container brief-grid">
+          <div class="brief-copy reveal">
+            <p class="eyebrow"><span aria-hidden="true"></span> Para começar</p>
+            <h2 id="brief-title">Quatro informações deixam a conversa mais objetiva.</h2>
+            <p>
+              Com esses dados, fica mais fácil entender o espaço e preparar uma proposta coerente
+              com o evento.
+            </p>
+          </div>
+
+          <ul class="brief-list">
+            <li class="reveal">
+              <i data-lucide="calendar-days" aria-hidden="true"></i>
+              <div><strong>Data</strong><span>Quando o evento acontece</span></div>
+            </li>
+            <li class="reveal">
+              <i data-lucide="map-pin" aria-hidden="true"></i>
+              <div><strong>Local</strong><span>Onde será a montagem</span></div>
+            </li>
+            <li class="reveal">
+              <i data-lucide="users" aria-hidden="true"></i>
+              <div><strong>Tipo de encontro</strong><span>Casamento ou evento empresarial</span></div>
+            </li>
+            <li class="reveal">
+              <i data-lucide="sparkles" aria-hidden="true"></i>
+              <div><strong>Itens desejados</strong><span>Cortinas, lustres e iluminação</span></div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact-section section" id="contato" aria-labelledby="contact-title">
+        <div class="container contact-panel reveal">
+          <div>
+            <p class="eyebrow eyebrow-light"><span aria-hidden="true"></span> Próximo passo</p>
+            <h2 id="contact-title">Conte o básico do seu evento.</h2>
+            <p>
+              Data, local e serviços desejados já são um bom começo para preparar a conversa.
+            </p>
+          </div>
+
+          <div class="contact-action">
+            <button class="button button-light" type="button" data-contact-action>
+              <i data-lucide="message-circle" aria-hidden="true"></i>
+              Abrir atendimento
+            </button>
+            <small>WhatsApp: +55 11 94983-1704</small>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="wordmark wordmark-footer" href="#inicio">GIULISION</a>
+        <span>© <span data-year></span></span>
+      </div>
+    </footer>
+
+    <button class="floating-contact" type="button" data-contact-action aria-label="Abrir atendimento">
+      <i data-lucide="message-circle" aria-hidden="true"></i>
+      <span>Contato</span>
+    </button>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+

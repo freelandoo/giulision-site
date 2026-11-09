@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.vite/
+.docx-build/
+.playwright-mcp/
+*.log
+
+# Capturas intermediárias de QA; as evidências finais permanecem versionadas.
+output/qa/desktop-full-revealed.png
+output/qa/desktop-full.png
+output/qa/desktop-hero-approved.png
+output/qa/desktop-hero-final-v2.png
+output/qa/desktop-hero-final.png
+output/qa/mobile-dialog.png
+output/qa/mobile-full.png
+output/qa/mobile-hero.png
+output/qa/mobile-menu.png
+output/qa/tablet-hero.png
+
