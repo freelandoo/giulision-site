@@ -16,7 +16,7 @@ import "./styles.css";
 
 const CONTACT_WHATSAPP = "5511949831704";
 const WHATSAPP_MESSAGE =
-  "Olá! Quero conversar sobre decoração e iluminação para o meu evento.";
+  "Olá, Giulesson! Quero conversar sobre decoração e iluminação para o meu evento.";
 
 const iconSet = {
   ArrowRight,

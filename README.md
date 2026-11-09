@@ -1,4 +1,4 @@
-# Landing page Giulision
+# Landing page MAYOB
 
 Demonstração one-page baseada na direção comercial aprovada para decoração e iluminação de eventos.
 

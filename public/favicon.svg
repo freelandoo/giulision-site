@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Giulision">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MAYOB">
   <rect width="64" height="64" rx="14" fill="#fffaf4"/>
-  <path d="M16 14h8v27h24v8H16z" fill="#171a91"/>
-  <path d="M26 50h25l-4 6H22z" fill="#c65018"/>
+  <path d="M12 48V16h9l11 15 11-15h9v32h-8V28L32 44 20 28v20z" fill="#171a91"/>
+  <path d="M16 52h36l-4 6H12z" fill="#c65018"/>
 </svg>
